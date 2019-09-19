@@ -34,6 +34,31 @@ p {
 	color: #93cb52;
 }
 
+.l-heading {
+	font-size: 3rem;
+	line-height: 1.1;
+}
+
+.lead {
+	font-size: 1.35rem;
+	line-height: 1.4;
+}
+
+.btn {
+	text-align: center;
+	display: inline-block;
+	padding: 1rem 1.5rem;
+	font-size: 1.25rem;
+	background-color: #333;
+	border-radius: 4px;
+	border: none;
+}
+
+.btn-primary {
+	background-color: #93cb52;
+	color: #fff;
+}
+
 .container {
 	max-width: 1170px;
 	margin: auto;
@@ -59,10 +84,44 @@ p {
 #navbar ul li a {
 	margin: 0 0.25rem;
 	padding: 0.75rem;
-	transition: all .4s ease;
+	transition: all .3s ease;
 	border-radius: 4px;
 }
 
 #navbar ul li a:hover {
 	background-color: #93cb52;
+}
+
+#showcase {
+	height: 100vh;
+	background: #333 url("../img/showcase.jpg") no-repeat center center/cover;
+	color: #fff;
+	position: relative;
+}
+
+#showcase .showcase-content {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	text-align: center;
+	justify-content: center;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.45);
+}
+
+.showcase-content .btn {
+	align-self: center;
+	transition: all 0.25s ease;
+}
+
+.showcase-content .btn:hover {
+	background-color: #72be56;
+}
+
+.showcase-content p {
+	margin: 1rem 0;
+	padding: 1rem;
 }
