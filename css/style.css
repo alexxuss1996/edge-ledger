@@ -218,3 +218,14 @@ ul.list li {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+#clients .items {
+	display: flex;
+	margin: 1rem 0;
+}
+
+#clients .item img {
+	display: block;
+	margin: auto;
+	width: 60%;
+}
