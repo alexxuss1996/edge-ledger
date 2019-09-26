@@ -30,6 +30,17 @@ p {
 	margin: 0.75rem 0;
 }
 
+ul.list {
+	list-style: none;
+	margin: 0;
+	padding: 0.5rem 0;
+}
+
+ul.list li {
+	border-bottom: 1px dotted #444;
+	padding: 0.5rem 0;
+}
+
 .text-primary {
 	color: #93cb52;
 }
@@ -82,9 +93,26 @@ p {
 	padding: 3rem 0;
 }
 
+.p-1 {
+	padding: 1.5rem;
+}
+
+.p-2 {
+	padding: 2rem;
+}
+
+.p-3 {
+	padding: 3rem;
+}
+
 .bg-light {
 	background-color: #fcfcfc;
 	color: #333;
+}
+
+.bg-dark {
+	background-color: #333;
+	color: #fff;
 }
 
 .container {
@@ -139,6 +167,8 @@ p {
 	position: absolute;
 	top: 0;
 	left: 0;
+	right: 0;
+	bottom: 0;
 	background-color: rgba(0, 0, 0, 0.45);
 }
 
@@ -173,4 +203,18 @@ p {
 	padding: 1rem;
 	background-color: #93cb52;
 	border-radius: 50%;
+}
+
+#who {
+	display: flex;
+}
+
+#who div {
+	flex: 1;
+}
+
+#who .who-img {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
