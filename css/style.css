@@ -34,21 +34,32 @@ p {
 	color: #93cb52;
 }
 
+.text-center {
+	text-align: center;
+}
+
 .l-heading {
 	font-size: 3rem;
+	margin-bottom: 0.75rem;
 	line-height: 1.1;
 }
 
+.m-heading {
+	font-size: 2rem;
+	margin-bottom: 0.75rem;
+	line-height: 1.2;
+}
+
 .lead {
-	font-size: 1.35rem;
+	font-size: 1.3rem;
 	line-height: 1.4;
 }
 
 .btn {
 	text-align: center;
 	display: inline-block;
-	padding: 1rem 1.5rem;
-	font-size: 1.25rem;
+	padding: 0.5rem 1.5rem;
+	font-size: 1.125rem;
 	background-color: #333;
 	border-radius: 4px;
 	border: none;
@@ -59,9 +70,28 @@ p {
 	color: #fff;
 }
 
+.py-1 {
+	padding: 1.5rem 0;
+}
+
+.py-2 {
+	padding: 2rem 0;
+}
+
+.py-3 {
+	padding: 3rem 0;
+}
+
+.bg-light {
+	background-color: #fcfcfc;
+	color: #333;
+}
+
 .container {
 	max-width: 1170px;
 	margin: auto;
+	padding: 0 1.5rem;
+	overflow: hidden;
 }
 
 #navbar {
@@ -124,4 +154,23 @@ p {
 .showcase-content p {
 	margin: 1rem 0;
 	padding: 1rem;
+}
+
+#what .items {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#what .items .item {
+	flex: 1;
+	text-align: center;
+	padding: 1rem;
+}
+
+#what .items .item i.fas {
+	margin-bottom: 1rem;
+	padding: 1rem;
+	background-color: #93cb52;
+	border-radius: 50%;
 }
