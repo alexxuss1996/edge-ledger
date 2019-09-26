@@ -221,7 +221,6 @@ ul.list li {
 
 #clients .items {
 	display: flex;
-	margin: 1rem 0;
 }
 
 #clients .item img {
