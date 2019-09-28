@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
+/* Core styles & util classes */
+
 *,
 *::before,
 *::after {
@@ -122,6 +124,8 @@ ul.list li {
 	overflow: hidden;
 }
 
+/* Navbar */
+
 #navbar {
 	padding: 1rem;
 	position: sticky;
@@ -149,6 +153,8 @@ ul.list li {
 #navbar ul li a:hover {
 	background-color: #93cb52;
 }
+
+/* HEADER */
 
 #showcase {
 	height: 100vh;
@@ -186,6 +192,7 @@ ul.list li {
 	padding: 1rem;
 }
 
+/* What We Do Section */
 #what .items {
 	display: flex;
 	justify-content: center;
@@ -205,6 +212,8 @@ ul.list li {
 	border-radius: 50%;
 }
 
+/* Who We Are Section */
+
 #who {
 	display: flex;
 }
@@ -219,6 +228,7 @@ ul.list li {
 	background-size: cover;
 }
 
+/* Client Section */
 #clients .items {
 	display: flex;
 }
@@ -228,3 +238,5 @@ ul.list li {
 	margin: auto;
 	width: 60%;
 }
+
+/* Contacts Section */
