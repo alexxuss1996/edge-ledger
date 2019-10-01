@@ -19,6 +19,7 @@ body {
 	padding: 0;
 	position: relative;
 	line-height: 1.6;
+	height: 100%;
 	overflow-x: hidden;
 	font-family: "Roboto", sans-serif;
 }
@@ -250,3 +251,26 @@ ul.list li {
 }
 
 /* Contacts Section */
+
+#contacts {
+	display: flex;
+}
+
+#contacts .contact-form,
+#contacts .map-box {
+	flex: 1;
+}
+
+#contacts .contact-form .form-group {
+	margin: 0.75rem;
+}
+
+#contacts .contact-form label {
+	display: block;
+}
+
+#contacts .contact-form input,
+#contacts .contact-form textarea {
+	width: 100%;
+	padding: 0.5rem;
+}
