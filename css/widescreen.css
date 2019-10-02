@@ -1,0 +1,18 @@
+#what .items {
+	display: block;
+}
+
+#what .items .item {
+	display: flex;
+	text-align: left;
+}
+
+#what .items .fas {
+	margin-right: 1.3rem;
+	align-self: center;
+	margin-bottom: 0;
+}
+
+#contacts .map-box {
+	flex: 2;
+}

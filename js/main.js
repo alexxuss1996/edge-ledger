@@ -1,8 +1,13 @@
 window.onload = function() {
   const navbar = document.querySelector("#navbar");
-  let links = document.querySelectorAll("#navbar a, a.btn");
   const positionOnTop = navbar.offsetTop + navbar.offsetHeight;
-  links.forEach(elem => elem.addEventListener("click", navLinkClick));
+  let links = document.querySelectorAll("#navbar a, a.btn");
+  // links.forEach(elem => elem.addEventListener("click", navLinkClick));
+
+  for (let i = 0; i < links.length; i++) {
+    const elem = links[i];
+    elem.addEventListener("click", navLinkClick);
+  }
 
   window.addEventListener(
     "scroll",
@@ -24,7 +29,7 @@ window.onload = function() {
     const startPosition = window.pageYOffset;
     const distance = targetPosition - startPosition;
     const offset = -65; // scroll offset in px
-    const duration = 1000;
+    const duration = 800; // ms
     let start = null;
 
     window.requestAnimationFrame(step);
@@ -43,12 +48,6 @@ window.onload = function() {
     smoothScroll(event);
   }
   // Easing function
-  function easeInOutQuad(t, b, c, d) {
-    t /= d / 2;
-    if (t < 1) return (c / 2) * t * t + b;
-    t--;
-    return (-c / 2) * (t * (t - 2) - 1) + b;
-  }
 
   function easeOutQuint(t, b, c, d) {
     t /= d;
