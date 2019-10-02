@@ -1,7 +1,3 @@
-#what .items {
-	display: block;
-}
-
 #what .items .item {
 	display: flex;
 	text-align: left;
