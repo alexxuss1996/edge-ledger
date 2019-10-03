@@ -266,7 +266,7 @@ ul.list li {
 #contacts .contact-form,
 #contacts .map-box {
 	flex: 1;
-	/* flex-basis: 50%; */
+	flex-basis: 50%;
 }
 
 #contacts .contact-form .form-group {
