@@ -260,12 +260,13 @@ ul.list li {
 
 #contacts {
 	display: flex;
+	position: relative;
 }
 
 #contacts .contact-form,
 #contacts .map-box {
 	flex: 1;
-	flex-basis: 50%;
+	/* flex-basis: 50%; */
 }
 
 #contacts .contact-form .form-group {
